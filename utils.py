@@ -1,3 +1,8 @@
+import os
+
+import psutil
+
+
 def memory_usage():
     """
     :return: memory usage in MB
