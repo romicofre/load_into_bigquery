@@ -16,7 +16,7 @@ def from_firebase():
     """
     start_time = time.time()
 
-    print('Init extract users from Firestore')
+    print('Init extract users example from Firestore')
     db = firestore.Client()
     users = list(db.collection(u'users').stream())
 
